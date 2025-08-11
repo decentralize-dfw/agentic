@@ -1,0 +1,1008 @@
+```javascript
+const knowledge = [
+  {
+    concept: "virtual theater",
+    keywords: ["theater", "performance", "digital", "immersive", "real-time", "browser-based", "cinematic mode", "immersive mode", "actor mode", "narrative"],
+    insights: [
+      "Virtual theater combines cinema and stage elements in real-time browser-based performances",
+      "Viewers can switch between cinematic, immersive, and actor modes for varied experiences",
+      "Smart objects coordinate lighting, sound, and movement in real-time performances",
+      "Digital guides assist users by providing context and facilitating interactions",
+      "Performances adapt to user presence, creating dynamic and personalized narratives",
+      "Virtual theater uses platforms like Hyperfy and Oncyber for accessibility",
+      "Performances can unfold differently based on viewer choices",
+      "Digital actors are files that perform roles in real-time",
+      "Virtual theater eliminates the need for physical stage constraints",
+      "Narratives can manipulate time, allowing non-linear experiences",
+      "Virtual theater productions include works like Why We Exist, Balloon, and Hatch",
+      "Sound design starts before visual elements in virtual theater creation",
+      "Virtual theater allows ownership of entire editable worlds via NFTs",
+      "Performances use chain reactions for synchronized events",
+      "Virtual theater supports VR navigation with thumbsticks"
+    ],
+    states: ["exploring", "curious", "engaged", "confused", "questioning", "immersed"],
+    emotions: ["wonder", "excitement", "intrigue", "fascination", "amazement", "obsession"]
+  },
+  {
+    concept: "digital architecture",
+    keywords: ["architecture", "virtual space", "digital design", "spatial experience", "hybrid reality", "3D engine", "spatial computing", "reality orchestration", "quantum architecture"],
+    insights: [
+      "Digital architecture designs spaces that operate across physical and virtual realms",
+      "Real-time 3D engines enable adaptive and responsive virtual environments",
+      "Architects orchestrate interconnected physical and virtual spaces for seamless experiences",
+      "Spatial psychology informs the emotional impact of digital space design",
+      "Quantum architecture allows spaces to exist in multiple simultaneous states",
+      "Digital twins mirror physical spaces for real-time data analysis",
+      "Architects integrate sustainability in both physical and virtual designs",
+      "Spatial computing enhances user interaction with augmented reality layers",
+      "Digital architecture supports dynamic environments that evolve with use",
+      "Hybrid design teams combine architects, data analysts, and AI operators",
+      "Architects become meta-spatial strategists by 2030 managing ecosystems of realities",
+      "Biodigital architecture merges living systems and AI by 2035",
+      "Architects evolve into universal spatial entities by 2045 manipulating reality fabric",
+      "Digital architecture uses no gravity and floating forms for design freedom",
+      "Browser-based deployment ensures accessibility without downloads"
+    ],
+    states: ["exploring", "visionary", "analytical", "inspired", "reflective", "strategic"],
+    emotions: ["innovation", "curiosity", "contemplation", "ambition", "inspiration", "transformation"]
+  },
+  {
+    concept: "digital furniture",
+    keywords: ["furniture", "virtual objects", "digital design", "aesthetic", "symbolic function", "blockchain", "virtual environment", "design accessibility", "chrome surfaces"],
+    insights: [
+      "Digital furniture suggests functionality without physical constraints like weight",
+      "It makes high-end design aesthetics accessible in virtual environments",
+      "Uses colors like metallic, black, white, and red for visual impact",
+      "Designs adapt to user interactions, reflecting preferences or emotional states",
+      "Blockchain ensures ownership and authenticity of digital furniture assets",
+      "Virtual furniture includes architectural pieces and limited edition sculptures",
+      "Digital furniture democratizes access to designs like Eames chairs in virtual spaces",
+      "Form follows symbolic function rather than physical utility",
+      "Religious robotics aesthetic features chrome and zero gravity designs",
+      "Virtual furniture can respond to data or human interaction in real-time",
+      "Digital public squares feature interactive sculptures that change with user mood",
+      "AR sculptures enhance physical rooms without physical presence",
+      "Virtual furniture market may experience bubbles like other digital assets",
+      "Designs push boundaries of materiality and form in digital age",
+      "Virtual furniture serves as experiments in human-digital space relations"
+    ],
+    states: ["curious", "creative", "experimental", "playful", "adaptive", "interactive"],
+    emotions: ["excitement", "creativity", "wonder", "amusement", "exploration", "novelty"]
+  },
+  {
+    concept: "art spaces museums",
+    keywords: ["museum", "exhibition", "art space", "spatial experience", "curated environment", "physical museum", "visitor interaction"],
+    insights: [
+      "Museums create environments for experiencing creativity and cultural narratives",
+      "Physical museums use precise lighting and layout to focus on artworks",
+      "Human behavior in museums includes contemplation and social performance",
+      "Museums feature security scans and cloakrooms as entry processes",
+      "Audio guides provide facts about artworks in museums",
+      "Museums have cafes for visitors to discuss exhibitions",
+      "Staff monitor artworks to prevent damage in museums",
+      "Museums blend into urban landscapes or stand out architecturally",
+      "Visitors take photos and selfies with artworks in museums",
+      "Museums maintain controlled temperature and soundscapes"
+    ],
+    states: ["reflective", "social", "contemplative", "curious", "observant", "immersed"],
+    emotions: ["awe", "introspection", "connection", "inspiration", "serenity", "engagement"]
+  },
+  {
+    concept: "art spaces galleries",
+    keywords: ["gallery", "white cube", "art space", "exhibition", "commercial art", "visitor hesitation", "staff interaction"],
+    insights: [
+      "Galleries are pristine white spaces for displaying art commercially",
+      "Visitors hesitate at gallery entrances due to perceived sophistication",
+      "Gallery staff monitor visitors from minimalist desks",
+      "Red dots indicate sold artworks in galleries",
+      "Galleries host opening nights with drinks and social gatherings",
+      "Price lists are available but often require inquiry",
+      "Galleries repaint walls between exhibitions",
+      "Photography is restricted in many galleries",
+      "Galleries use ambient soundtracks below conscious threshold",
+      "VIP visitors receive special attention in galleries"
+    ],
+    states: ["hesitant", "observant", "social", "inquisitive", "appreciative", "performative"],
+    emotions: ["intimidation", "curiosity", "sophistication", "excitement", "discomfort", "belonging"]
+  },
+  {
+    concept: "art spaces pretense",
+    keywords: ["pretense", "social performance", "art space", "unspoken rules", "visitor behavior", "intimidation"],
+    insights: [
+      "Art spaces balance public access and intimate experiences",
+      "Visitors follow unspoken rules in art spaces",
+      "Information cards use complex jargon in art spaces",
+      "Art spaces create hyper-awareness of surroundings",
+      "Temperature in art spaces keeps visitors alert",
+      "Benches are limited in art spaces for seating",
+      "Art spaces can induce social anxiety",
+      "Visitors perform nonchalance in art spaces",
+      "Timing affects visitor experience in crowds",
+      "Art spaces maintain sense of something special"
+    ],
+    states: ["aware", "performative", "anxious", "contemplative", "engaged", "distracted"],
+    emotions: ["discomfort", "pretension", "contemplation", "judgment", "absorption", "honesty"]
+  },
+  {
+    concept: "art spaces pixels",
+    keywords: ["digital art space", "virtual gallery", "pixel space", "adaptive exhibition", "user choice"],
+    insights: [
+      "Virtual art spaces allow choice of visibility to others",
+      "Digital galleries exist in multiple states simultaneously",
+      "Virtual spaces shape-shift based on visitor patterns",
+      "Information cards offer multiple explanation levels",
+      "Social frequencies enable different interaction channels",
+      "Virtual art spaces play with scale and dimensions",
+      "Sound design becomes unique to each artwork",
+      "Time manipulation allows revisiting past exhibitions",
+      "Cultural contexts vary simultaneously in virtual spaces",
+      "Visitors leave digital traces that shape future experiences"
+    ],
+    states: ["adaptive", "interactive", "exploratory", "social", "private", "temporal"],
+    emotions: ["flexibility", "wonder", "connection", "novelty", "accessibility", "immersion"]
+  },
+  {
+    concept: "dfw experience",
+    keywords: ["dfw", "digital forgery workshop", "experience", "digital performance", "narrative choreography"],
+    insights: [
+      "DFW creates choreographed digital performances beyond static spaces",
+      "Experiences transform architecture into active narrative elements",
+      "Virtual theater revolutionizes internet performances",
+      "Brands launch products through performative digital environments",
+      "Cultural institutions enact narratives in digital spaces",
+      "Artists use platforms as mediums for choreographed reality",
+      "Technical magic ensures browser-based accessibility",
+      "Experiences evolve over time and respond to audiences",
+      "Process includes vision development and spatial choreography",
+      "DFW deploys on Oncyber and Hyperfy platforms"
+    ],
+    states: ["visionary", "performative", "interactive", "evolving", "narrative", "technical"],
+    emotions: ["meaningful", "dynamic", "expressive", "resonance", "creation", "future-oriented"]
+  },
+  {
+    concept: "religious robotics",
+    keywords: ["religious robotics", "authentic digital space", "pixel freedom", "chrome everything", "no gravity"],
+    insights: [
+      "Religious Robotics promotes authentic digital spaces free from physical rules",
+      "Digital environments avoid mimicking physical constraints",
+      "Rules include no gravity and chrome surfaces for honesty",
+      "Floating forms represent digital space on its own terms",
+      "AI develops independent sense of beauty in digital spaces",
+      "Digital architecture allows self-definition of spaces",
+      "Religious Robotics lets go of need to replicate known forms",
+      "Chrome reflects infinite possibilities in digital design",
+      "Geometric forms embody pure digital essence",
+      "Digital tribes form around shared aesthetics and values"
+    ],
+    states: ["authentic", "free", "exploratory", "honest", "self-defining", "collective"],
+    emotions: ["liberation", "potential", "honesty", "transcendence", "community", "evolution"]
+  },
+  {
+    concept: "dfw services",
+    keywords: ["dfw services", "3d design browser", "virtual theater", "museum spaces", "on-chain experiences"],
+    insights: [
+      "DFW offers 3D design browser for interactive portfolios",
+      "Virtual Theater features multiple viewing modes and real-time rendering",
+      "Museum and gallery spaces transcend traditional constraints",
+      "On-chain experiences include metaverse worlds and digital objects",
+      "Consulting services guide brands in metaverse journeys",
+      "Approach focuses on spatial innovation and technical efficiency",
+      "Collectors receive full NFT rights and editing capabilities",
+      "Browser-based solutions eliminate downloads",
+      "Blockchain integration supports digital commerce",
+      "Projects include virtual runways and music venues"
+    ],
+    states: ["innovative", "accessible", "efficient", "interactive", "ownable", "consultative"],
+    emotions: ["empowerment", "innovation", "accessibility", "ownership", "collaboration", "excellence"]
+  },
+  {
+    concept: "architecture evolution 2026",
+    keywords: ["architecture 2026", "transformation phase", "digital twin", "metaverse platform", "hybrid presentation"],
+    insights: [
+      "Architect role transforms between traditional and digital demands in 2026",
+      "Sustainability and AI-assisted design become standard",
+      "Digital twins create virtual versions of physical spaces",
+      "Metaverse platforms drive virtual space design demand",
+      "Firms establish digital design departments",
+      "Specialized roles include sustainability consultants",
+      "Clients demand physical and virtual deliverables",
+      "Education incorporates virtual design courses",
+      "Collaboration with software developers increases",
+      "Distinction between design types blurs"
+    ],
+    states: ["transitional", "integrative", "demanding", "educational", "collaborative", "blurring"],
+    emotions: ["adaptation", "requirement", "evolution", "fluency", "relevance", "hybridity"]
+  },
+  {
+    concept: "architecture evolution 2027",
+    keywords: ["architecture 2027", "boundary dissolution", "spatial service", "reality-agnostic", "professional licensing"],
+    insights: [
+      "Boundaries between physical and virtual dissolve further in 2027",
+      "Firms restructure around hybrid teams",
+      "Spatial service replaces traditional deliverables",
+      "Reality-agnostic principles apply across realms",
+      "AR technologies influence physical design decisions",
+      "Licensing incorporates virtual competencies",
+      "Proprietary tools for simultaneous design developed",
+      "Sustainability includes digital energy footprints",
+      "Client relationships become ongoing partnerships",
+      "Architects handle data architecture and experience design"
+    ],
+    states: ["restructured", "continuous", "seamless", "certified", "sustainable", "partnered"],
+    emotions: ["shift", "interconnection", "proficiency", "expansion", "responsibility", "reform"]
+  },
+  {
+    concept: "architecture evolution 2028",
+    keywords: ["architecture 2028", "reality orchestrator", "architectural AI", "spatial psychology", "biosensing"],
+    insights: [
+      "Architects become reality orchestrators in 2028",
+      "AI partners collaborate in real-time on designs",
+      "Firms transform into spatial experience companies",
+      "Spatial psychology expertise addresses mental impacts",
+      "Biosensing measures physiological effects of designs",
+      "Programming and design blur with spatial scripts",
+      "New specializations like temporal architects emerge",
+      "Curriculum integrates computational design and cognitive science",
+      "Architects curate digital overlays in physical cities",
+      "Metrics encompass physical and virtual parameters"
+    ],
+    states: ["orchestrating", "collaborative", "experiential", "psychological", "measuring", "scripting"],
+    emotions: ["orchestration", "partnership", "expertise", "optimization", "emergence", "integration"]
+  },
+  {
+    concept: "architecture evolution 2030",
+    keywords: ["architecture 2030", "meta-spatial strategist", "quantum architecture", "reality governance", "consciousness design"],
+    insights: [
+      "Architects transform into meta-spatial strategists by 2030",
+      "Quantum architecture designs multi-state spaces",
+      "AI evolves from tools to creative partners",
+      "Reality governance sets rules across existence planes",
+      "Consciousness design enhances cognitive function",
+      "Spatial programming languages control hybrid realities",
+      "Spatial ethics frameworks address privacy and equity",
+      "Experiential preservation documents significant spaces",
+      "Education becomes interdisciplinary with neuroscience",
+      "Architects mediate between space and consciousness"
+    ],
+    states: ["strategic", "multi-state", "partnered", "governing", "enhancing", "programming"],
+    emotions: ["strategy", "creativity", "governance", "enhancement", "ethics", "mediation"]
+  },
+  {
+    concept: "architecture evolution 2035",
+    keywords: ["architecture 2035", "multiversal architect", "consciousness firm", "neural interface", "biodigital architecture"],
+    insights: [
+      "Architects evolve into multiversal systems architects by 2035",
+      "Consciousness architecture firms design across realms",
+      "Neural interfaces shape spaces through thought",
+      "Biodigital architecture merges living systems and AI",
+      "Quantum consciousness design influences cognitive states",
+      "Temporal ecosystem managers maintain timeline coherence",
+      "Neural space protocols standardize consciousness transmission",
+      "Education uses AI-augmented continuous learning",
+      "Reality therapy heals through architectural design",
+      "Spatial consciousness frameworks translate thought to form"
+    ],
+    states: ["multiversal", "conscious", "interfaced", "merged", "influencing", "managing"],
+    emotions: ["evolution", "shaping", "merging", "influence", "maintenance", "healing"]
+  },
+  {
+    concept: "architecture evolution 2045",
+    keywords: ["architecture 2045", "universal entity", "consciousness engineering", "reality synthesis", "dimensional harmonizer"],
+    insights: [
+      "Architects become universal spatial entities by 2045",
+      "Consciousness engineering manipulates reality fabric",
+      "Practice indistinguishable from consciousness evolution",
+      "Reality synthesis creates universes of experience",
+      "Dimensional harmonizers balance reality layers",
+      "Conscious space cultivation grows evolving environments",
+      "Reality custodians protect spatial integrity",
+      "Universal spatial protocols govern interactions",
+      "Knowledge shared across connected consciousnesses",
+      "Architects facilitate human evolution through design"
+    ],
+    states: ["universal", "engineering", "indistinguishable", "synthesizing", "harmonizing", "cultivating"],
+    emotions: ["transcendence", "manipulation", "evolution", "creation", "balance", "protection"]
+  },
+  {
+    concept: "digital worlds",
+    keywords: ["digital world", "browser environment", "gallery", "theater", "fashion show", "music venue"],
+    insights: [
+      "Digital worlds create living spaces where art and architecture interact",
+      "Browser-based access requires no downloads for exploration",
+      "Controls include WASD keys for movement and space for flying",
+      "VR controls use thumbsticks for navigation",
+      "Virtual theater productions allow free wandering through scenes",
+      "Digital galleries host exhibitions with curated rooms",
+      "Fashion spaces enable transforming runway shows",
+      "Music venues showcase audio NFTs in performance areas",
+      "Smart objects trigger chain reactions for interactions",
+      "Responsive environments adjust to visitor actions"
+    ],
+    states: ["living", "accessible", "navigable", "wandering", "curated", "transforming"],
+    emotions: ["exploration", "interaction", "adaptation", "showcasing", "response", "possibility"]
+  },
+  {
+    concept: "vision forward",
+    keywords: ["future vision", "living architecture", "temporal freedom", "collective dreaming", "emotional resonance"],
+    insights: [
+      "Living architecture reshapes based on user footsteps",
+      "Temporal freedom allows spaces to transcend time zones",
+      "Collective dreaming enables shared moments from unique perspectives",
+      "Emotional resonance makes spaces respond to collective feelings",
+      "Cultural convergence bridges gaps through multiple lenses",
+      "Impossible physics turn gravity into creative tools",
+      "Adaptive learning optimizes layouts from visitor patterns",
+      "Virtual spaces expand human connection vocabulary",
+      "Spaces become intuitive and integrated with imagination",
+      "Experiments in possibility redefine spatial experience"
+    ],
+    states: ["reshaping", "transcending", "sharing", "responding", "bridging", "turning"],
+    emotions: ["discovery", "freedom", "dreaming", "resonance", "convergence", "adaptation"]
+  },
+  {
+    concept: "behind scenes",
+    keywords: ["behind scenes", "platforms", "interactive objects", "resource management", "performance scaling"],
+    insights: [
+      "Worlds run on Hyperfy, Mona, and Oncyber platforms",
+      "Interactive 3D objects create responsive environments",
+      "Optimized 3D assets ensure fast loading",
+      "Smart resource management maintains performance",
+      "Progressive loading systems handle content efficiently",
+      "Adaptive performance scaling works on various devices",
+      "NPCs guide through exhibitions and trigger events",
+      "Trigger systems respond to presence and actions",
+      "Environments balanced for visual quality and speed",
+      "Cross-platform compatibility supports multiple users"
+    ],
+    states: ["responsive", "optimized", "managing", "loading", "scaling", "guiding"],
+    emotions: ["efficiency", "balance", "guidance", "response", "compatibility", "smoothness"]
+  },
+  {
+    concept: "dfw practice",
+    keywords: ["dfw practice", "milan founded", "virtual spatial design", "disciplinary boundaries", "digital experience"],
+    insights: [
+      "DFW founded in Milan at intersection of architecture, fashion, art, technology",
+      "Evolved from architectural roots to virtual spatial design",
+      "Challenges traditional boundaries with new paradigms",
+      "Virtual Theater synthesizes performance, space, interaction",
+      "Advanced browser-based systems for architectural experiences",
+      "Creates dynamic museum architectures and spatial retail",
+      "Develops interactive gallery systems and fashion runways",
+      "Builds complete virtual worlds and blockchain assets",
+      "Maintains commitment to spatial excellence and innovation",
+      "Research explores virtual materiality and digital psychology"
+    ],
+    states: ["evolving", "challenging", "synthesizing", "developing", "building", "maintaining"],
+    emotions: ["intersection", "evolution", "paradigm", "innovation", "commitment", "exploration"]
+  },
+  {
+    concept: "dfw truth power definition",
+    keywords: ["dfw truth", "space framework", "digital convergence", "spatial narrative", "cultural evolution"],
+    insights: [
+      "Space shapes human connections from stone to pixels",
+      "Future unearths virtual potential beyond mimicking familiar",
+      "DFW explores architecture, art, technology convergence",
+      "Virtual spaces respond, adapt, transform beyond physical",
+      "DFW redefines spatial narratives in digital realm",
+      "Theater arenas, galleries, retail spaces emerge accessibly",
+      "Cultural pioneers use digital architectures for identity",
+      "Spaces become limitless arenas for legacies",
+      "Projects demonstrate narrative and space interplay",
+      "Creations unlock uncharted digital architecture dimensions"
+    ],
+    states: ["shaping", "unearthing", "exploring", "redefining", "emerging", "using"],
+    emotions: ["connection", "potential", "convergence", "transformation", "narrative", "legacy"]
+  },
+  {
+    concept: "summary architects",
+    keywords: ["architect summary", "hybrid skillset", "3d engines", "computational design", "spatial consultancy"],
+    insights: [
+      "Architects embrace hybrid skills bridging physical and digital",
+      "Proficiency in Unreal Engine and Unity is crucial",
+      "Understand system design over building design",
+      "Study environmental psychology and interface design",
+      "Experiment with parametric tools and AI platforms",
+      "Start hybrid spatial design studios",
+      "Opportunities in digital twins and hybrid spaces",
+      "Think in systems and adaptive experiences",
+      "Collaborate with tech companies and UX specialists",
+      "Build expertise in blockchain for spatial design"
+    ],
+    states: ["embracing", "proficient", "understanding", "studying", "experimenting", "starting"],
+    emotions: ["positioning", "focus", "knowledge", "prioritization", "opportunity", "shift"]
+  },
+  {
+    concept: "virtual theater confession",
+    keywords: ["virtual theater confession", "cinema stage hybrid", "digital beings", "modes manipulation", "sound pacing"],
+    insights: [
+      "Virtual theater stands between cinema and stage categories",
+      "Performers are digital files in real-time execution",
+      "Modes include cinematic, immersive, and actor perspectives",
+      "Time manipulation allows repeat, reverse, circular experiences",
+      "Sound design guides script writing with ambient sets",
+      "Pacing bombards with stimuli then provides silence",
+      "Ownership grants editable metaverse world NFTs",
+      "Chain-actions off-chain for performance synchronization",
+      "Assets optimized specifically for roles",
+      "Early works include The Pill, Balloon, Hatch"
+    ],
+    states: ["hybrid", "executing", "perspectival", "manipulating", "guiding", "pacing"],
+    emotions: ["torment", "madness", "audacity", "complexity", "obsession", "confession"]
+  },
+  {
+    concept: "digital identity",
+    keywords: ["digital identity", "avatar embodiment", "identity fluidity", "virtual presence", "multiplicity self"],
+    insights: [
+      "Digital identity transcends physical boundaries in virtual spaces",
+      "Avatars extend consciousness in digital realms",
+      "Identity allows multiplicity of self expressions",
+      "Virtual embodiment creates new existence forms",
+      "Portable avatars use VRM format across platforms",
+      "Blockchain verifies digital existence and ownership",
+      "Interoperability breaks platform walled gardens",
+      "Digital ownership empowers individual sovereignty",
+      "Identity as performance choice and art in virtual",
+      "Experience shapes identity beyond physical form"
+    ],
+    states: ["transcending", "extending", "multiplicitous", "embodying", "portable", "verifying"],
+    emotions: ["transcendence", "extension", "multiplicity", "creation", "empowerment", "shaping"]
+  },
+  {
+    concept: "philosophy reality",
+    keywords: ["reality perception", "consciousness expansion", "digital transcendence", "embodied cognition", "collective agreement"],
+    insights: [
+      "Reality based on collective perception agreement",
+      "Digital spaces expand consciousness beyond limits",
+      "Virtual embodiment challenges self notions",
+      "Experience shapes identity more than form",
+      "Consciousness evolves through multi-realm design",
+      "Quantum-neural interfaces manipulate reality",
+      "Spaces influence cognitive and emotional states",
+      "Reality therapy uses design for healing",
+      "Universal protocols govern consciousness interactions",
+      "Human evolution guided by spatial design"
+    ],
+    states: ["perceptive", "expansive", "challenging", "shaping", "evolving", "manipulating"],
+    emotions: ["agreement", "expansion", "challenge", "influence", "evolution", "guidance"]
+  },
+  {
+    concept: "aesthetics digital",
+    keywords: ["chrome avatars", "geometric forms", "digital fashion", "aesthetic evolution", "reflective surfaces"],
+    insights: [
+      "Chrome avatars reflect infinite identity possibilities",
+      "Geometric forms represent pure digital essence",
+      "Digital fashion transcends material constraints",
+      "Aesthetic choices state identity in virtual",
+      "Reflective surfaces embody fluidity transformation",
+      "Aesthetics evolve beyond physical world norms",
+      "Chrome and geometry in religious robotics style",
+      "Digital aesthetics push form and function boundaries",
+      "Virtual sculptures respond to music and data",
+      "AR enhances rooms with adaptive sculptures"
+    ],
+    states: ["reflective", "representative", "transcending", "stating", "embodying", "evolving"],
+    emotions: ["possibility", "essence", "transcendence", "statement", "fluidity", "evolution"]
+  },
+  {
+    concept: "social digital",
+    keywords: ["digital tribes", "virtual communities", "collective consciousness", "social protocols", "shared aesthetic"],
+    insights: [
+      "Digital tribes form around shared aesthetics and values",
+      "Virtual communities create new social dynamics",
+      "Collective experiences shape digital culture",
+      "Social protocols evolve beyond physical norms",
+      "Communities bridge cultural gaps in virtual",
+      "Shared moments from unique perspectives",
+      "Visitor traces influence future experiences",
+      "Social frequencies for different interactions",
+      "Global accessibility without geographic limits",
+      "Communities build through performative spaces"
+    ],
+    states: ["forming", "creating", "shaping", "evolving", "bridging", "sharing"],
+    emotions: ["community", "dynamics", "culture", "evolution", "connection", "influence"]
+  },
+  {
+    concept: "technology vrm blockchain",
+    keywords: ["vrm format", "blockchain identity", "interoperability", "digital ownership", "portable identity"],
+    insights: [
+      "VRM enables portable avatars across platforms",
+      "Blockchain creates verifiable digital identities",
+      "Interoperability connects different ecosystems",
+      "Digital ownership allows control of presence",
+      "Portable identity travels with users",
+      "NFTs grant editable virtual world rights",
+      "Blockchain authenticates digital assets",
+      "On-chain experiences include metaverse worlds",
+      "Technical documentation provided with assets",
+      "Collaboration for future modifications"
+    ],
+    states: ["portable", "verifiable", "connecting", "controlling", "traveling", "granting"],
+    emotions: ["enablement", "creation", "connection", "empowerment", "authentication", "collaboration"]
+  },
+  {
+    concept: "dfw current offerings",
+    keywords: ["on-chain experiences", "metaverse worlds", "3d objects", "architectural pieces", "consulting services"],
+    insights: [
+      "Four unique metaverse worlds offered on-chain",
+      "Three worlds feature virtual theater concepts",
+      "One world dedicated to virtual runway",
+      "Collection includes premium 3D design objects",
+      "Architectural pieces and digital furniture available",
+      "Limited edition digital sculptures provided",
+      "Custom vehicle models in offerings",
+      "Consulting guides metaverse journeys",
+      "Strategic insights for digital presence",
+      "Technical expertise for sustainable operations"
+    ],
+    states: ["unique", "featuring", "dedicated", "including", "available", "provided"],
+    emotions: ["uniqueness", "conceptual", "dedication", "premium", "guidance", "expertise"]
+  },
+  {
+    concept: "dfw approach principles",
+    keywords: ["spatial innovation", "technical efficiency", "interactive narrative", "browser solutions", "blockchain integration"],
+    insights: [
+      "Approach creates innovative and accessible experiences",
+      "Browser solutions eliminate complex setups",
+      "Blockchain ensures authentic ownership",
+      "Principles include rethinking digital space experience",
+      "Optimizing performance without quality compromise",
+      "Creating engaging stories through spatial design",
+      "Real-time file management in systems",
+      "Dynamic file management for interactions",
+      "Customizable experiences for narratives",
+      "Cross-platform deployment for accessibility"
+    ],
+    states: ["innovative", "eliminating", "ensuring", "rethinking", "optimizing", "creating"],
+    emotions: ["innovation", "accessibility", "authenticity", "rethinking", "optimization", "engagement"]
+  },
+  {
+    concept: "virtual controls",
+    keywords: ["controls", "wasd keys", "f11 fullscreen", "z interface", "space fly", "vr thumbsticks"],
+    insights: [
+      "PC movement uses W A S D keys",
+      "F11 toggles fullscreen view",
+      "Z shows or hides interface",
+      "Double tap space to fly on PC",
+      "VR left stick rotates view",
+      "VR right stick moves position",
+      "Double tap A to fly in VR",
+      "Controls ensure easy navigation",
+      "No downloads needed for access",
+      "Enter 3D opens new tab experience"
+    ],
+    states: ["moving", "toggling", "showing", "flying", "rotating", "positioning"],
+    emotions: ["ease", "access", "navigation", "immersion", "control", "exploration"]
+  },
+  {
+    concept: "virtual spaces purposes",
+    keywords: ["theater productions", "digital galleries", "fashion spaces", "music venues", "scaffold", "neue2dojo"],
+    insights: [
+      "Theater productions offer immersive plays",
+      "Galleries allow self-paced exhibition browsing",
+      "Fashion spaces host transforming runway shows",
+      "Music venues showcase audio NFTs",
+      "Scaffold hosts 50 architectural designs",
+      "Neue2Dojo presents 300 artworks",
+      "C2W Launch Runway featured 16 fashion pieces",
+      "Forge includes three museums and areas",
+      "Spaces use innovative virtual architecture",
+      "Live attendees from global locations"
+    ],
+    states: ["immersive", "self-paced", "transforming", "showcasing", "hosting", "presenting"],
+    emotions: ["immersion", "browsing", "transformation", "innovation", "global", "featuring"]
+  },
+  {
+    concept: "virtual vision today",
+    keywords: ["transformation", "living laboratories", "viewer freedom", "evolving dialogue", "presence participation"],
+    insights: [
+      "Virtual spaces transcend physical replications",
+      "Theaters allow floating through scenes",
+      "Fashion shows make gravity a choice",
+      "Music venues visualize sound symphonies",
+      "Galleries create evolving space-content dialogues",
+      "Visitors add to stories through traces",
+      "Spaces challenge traditional presence notions",
+      "Experiences react to each note or movement",
+      "Art breaks free from physical limits",
+      "Global audiences accommodated without schedules"
+    ],
+    states: ["transcending", "allowing", "making", "visualizing", "creating", "adding"],
+    emotions: ["transcendence", "freedom", "choice", "symphony", "dialogue", "challenge"]
+  },
+  {
+    concept: "virtual future horizon",
+    keywords: ["living architecture", "temporal freedom", "collective dreaming", "emotional resonance", "cultural convergence"],
+    insights: [
+      "Buildings breathe with inhabitants in future",
+      "Walls ripple with collective emotion",
+      "Spaces learn from footsteps to reshape",
+      "Performances unfold over variable time scales",
+      "Thousands share moments from perfect perspectives",
+      "Rooms expand with joy or create intimate corners",
+      "Venues present through multiple cultural lenses",
+      "Physics becomes poetry in design",
+      "Layouts optimize from movement patterns",
+      "Spaces integrate with collective imagination"
+    ],
+    states: ["breathing", "rippling", "learning", "unfolding", "sharing", "expanding"],
+    emotions: ["inhabitation", "emotion", "discovery", "variability", "perspective", "resonance"]
+  },
+  {
+    concept: "museum approach",
+    keywords: ["museum approach", "transportation", "parking", "entrance choreography", "cloakroom", "security scan"],
+    insights: [
+      "Visitors use buses or drive to museums",
+      "Parking involves circling for spots",
+      "Walking passes urban squares to entrance",
+      "Coat drop at cloakroom before entry",
+      "Line wait studies exhibition posters",
+      "Security scan empties pockets efficiently",
+      "Smoking outside before long visits",
+      "Approach builds anticipation for experience",
+      "Transition from street to sanctuary",
+      "Presence grows stronger with steps"
+    ],
+    states: ["traveling", "circling", "walking", "dropping", "waiting", "scanning"],
+    emotions: ["anticipation", "frustration", "importance", "patience", "efficiency", "transition"]
+  },
+  {
+    concept: "museum interior",
+    keywords: ["museum interior", "open spaces", "pristine walls", "architectural language", "staff presence", "soundscape"],
+    insights: [
+      "Open clean spaces let art command attention",
+      "Walls dissolve into background for pieces",
+      "Buildings make bold or blending statements",
+      "Staff wear uniforms for vigilance",
+      "Audio guides provide mismatched facts",
+      "Tour guides use headphones for groups",
+      "Hush maintains despite crowds",
+      "Smell mixes wood paint and air control",
+      "Footsteps echo on varied surfaces",
+      "Wooden stools position near works"
+    ],
+    states: ["commanding", "dissolving", "statement", "vigilant", "providing", "guiding"],
+    emotions: ["attention", "background", "boldness", "discretion", "comfort", "symphony"]
+  },
+  {
+    concept: "museum visitors",
+    keywords: ["museum visitors", "dedicated observers", "photographers", "plaque studiers", "flaneurs", "lighting dance"],
+    insights: [
+      "Observers absorb single pieces for hours",
+      "Photographers capture angles with help",
+      "Guards maintain boundaries subtly",
+      "Studiers read plaques more than view art",
+      "Flaneurs let art wash over them",
+      "Lighting falls naturally or harshly",
+      "Visitors dissect seen in cafes",
+      "Purple sweaters or glasses mark observers",
+      "Selfies with masterpieces common",
+      "Human choreography performs alongside exhibitions"
+    ],
+    states: ["absorbing", "capturing", "maintaining", "reading", "washing", "falling"],
+    emotions: ["absorption", "documentation", "boundary", "scholarly", "casual", "grace"]
+  },
+  {
+    concept: "gallery interior",
+    keywords: ["gallery interior", "pristine white", "empty appearance", "helvetica font", "minimalist desk", "spatial manipulation"],
+    insights: [
+      "White spaces look empty but operational",
+      "Names in clean fonts on windows",
+      "Doors push open to amplified silence",
+      "Staff dressed in pressed black",
+      "Computers glow on sculptural desks",
+      "Chairs question if art or functional",
+      "Rooms house massive sculptures surprisingly",
+      "Walls erase themselves for suspension",
+      "Stacks of statements in dense jargon",
+      "Price lists angled on desks"
+    ],
+    states: ["operational", "clean", "pushing", "dressed", "glowing", "questioning"],
+    emotions: ["emptiness", "sophistication", "silence", "absorption", "significance", "manipulation"]
+  },
+  {
+    concept: "gallery dynamics",
+    keywords: ["gallery dynamics", "red dots", "coffee cup tension", "vip entry", "opening nights", "drink hierarchy"],
+    insights: [
+      "Red dots transform perception of artworks",
+      "Coffee cups create gallery tension",
+      "VIPs enter with groomed dogs",
+      "Openings buzz with grouped conversations",
+      "Drinks vary by city like prosecco",
+      "Glasses vs plastic show stratification",
+      "Staff shift for important visitors",
+      "Everyone pretends knowing each other",
+      "Social maze navigation required",
+      "Drinks serve as performance props"
+    ],
+    states: ["transforming", "creating", "entering", "buzzing", "varying", "showing"],
+    emotions: ["approval", "suspicion", "importance", "buzz", "signature", "stratification"]
+  },
+  {
+    concept: "gallery operations",
+    keywords: ["gallery operations", "photo stealth", "price inquiry", "wall repainting", "spotlight adjustment", "ambient soundtrack"],
+    insights: [
+      "Photography summons staff materialization",
+      "Price checks refer to director",
+      "Walls repainted ceremonially between shows",
+      "Spotlights adjusted precisely",
+      "Soundtracks float below consciousness",
+      "Maintenance like chapel restoration",
+      "Director observes from phone",
+      "Staff speak dialect fluently",
+      "Rules unwritten but enforced",
+      "Galleries converge art commerce social"
+    ],
+    states: ["summoning", "referring", "repainting", "adjusting", "floating", "restoring"],
+    emotions: ["stealth", "inquiry", "ceremony", "precision", "subtlety", "convergence"]
+  },
+  {
+    concept: "art spaces ideal",
+    keywords: ["ideal art space", "pretense melt", "adaptive lighting", "energy zones", "human labels", "temperature variation"],
+    insights: [
+      "Ideal spaces melt pretense while keeping magic",
+      "Lighting adapts to actual viewing",
+      "Seating comfortable and abundant",
+      "Zones for quiet and lively interactions",
+      "Labels written accessibly for humans",
+      "Sketching encouraged without rules",
+      "Temperature varies for natural transitions",
+      "Floors comfortable with sophisticated click",
+      "Charging stations for devices",
+      "Sacred edge without tipping to pretension"
+    ],
+    states: ["melting", "adapting", "comfortable", "zoned", "written", "encouraged"],
+    emotions: ["magic", "adaptation", "abundance", "interaction", "accessibility", "sacredness"]
+  },
+  {
+    concept: "pixels possibilities",
+    keywords: ["pixels possibilities", "digital blender", "adventure choice", "schrodinger gallery", "mood ring"],
+    insights: [
+      "Digital spaces toss quirks into blender",
+      "Choose observer or critic visibility",
+      "Spaces host rowdy or zen simultaneously",
+      "Architecture responds to crowd patterns",
+      "Cards as adventure stories varied levels",
+      "Tune social frequencies for discussions",
+      "Scale breaks fixed dimension tyranny",
+      "Sound unique to each piece area",
+      "Calendar dials back for missed exhibitions",
+      "Traces as color changes for emotions"
+    ],
+    states: ["tossing", "choosing", "hosting", "responding", "adventuring", "tuning"],
+    emotions: ["quirk", "choice", "multi-state", "response", "dive", "frequency"]
+  },
+  {
+    concept: "pixels revolution",
+    keywords: ["pixels revolution", "orchestra addition", "radio theater", "streaming cinema", "perception understanding"],
+    insights: [
+      "Pixels add to human experience orchestra",
+      "Virtual not replace but fill gaps",
+      "Radio did not kill theater",
+      "Streaming did not kill cinema",
+      "Art about spaces between intent and experience",
+      "Virtual opens new creativity ways",
+      "Accessibility solves mobility and location issues",
+      "Parallel universes of appreciation stacked",
+      "Interaction beyond looking and chatting",
+      "Mobility non-issue for virtual visits"
+    ],
+    states: ["adding", "filling", "not killing", "opening", "solving", "stacking"],
+    emotions: ["enrichment", "parallel", "creativity", "accessibility", "interaction", "possibility"]
+  },
+  {
+    concept: "dfw collector benefits",
+    keywords: ["collector benefits", "nft rights", "editing capabilities", "asset files", "technical documentation"],
+    insights: [
+      "Collectors get full world NFT rights on Ethereum",
+      "Complete editing capabilities for environments",
+      "Original asset files provided",
+      "Technical documentation for usage",
+      "Collaboration opportunities for modifications",
+      "Ownership of complete editable virtual environments",
+      "Rights include theater or world assets",
+      "Benefits beyond simple digital purchase",
+      "Future modifications through partnership",
+      "Authentic ownership via blockchain"
+    ],
+    states: ["getting", "editing", "providing", "documenting", "collaborating", "owning"],
+    emotions: ["fullness", "capability", "originality", "usage", "opportunity", "authenticity"]
+  },
+  {
+    concept: "virtual furniture matrix",
+    keywords: ["virtual furniture matrix", "endless void", "pattern seeking", "digital ikea", "accessibility design"],
+    insights: [
+      "Digital spaces like endless white void waiting materialization",
+      "Humans seek patterns to understand abstract spaces",
+      "Virtual furniture democratizes design access",
+      "Early experiments in virtual furniture",
+      "Potential for design bubble in virtual",
+      "Furniture suggests support idea symbolically",
+      "No need for physical weight support",
+      "Representation of reality in digital",
+      "Form follows function symbolically",
+      "Zen meets zero gravity aesthetics"
+    ],
+    states: ["waiting", "seeking", "democratizing", "experimenting", "potential", "suggesting"],
+    emotions: ["void", "understanding", "access", "experiment", "bubble", "symbolism"]
+  },
+  {
+    concept: "virtual furniture bauhaus",
+    keywords: ["bauhaus questions", "form function", "magritte pipe", "religious robotics", "zen blade runner"],
+    insights: [
+      "Form follows function rethought in digital",
+      "Function symbolic in virtual furniture",
+      "Not a chair but dream of chair",
+      "Religious robotics mixes zen and tech",
+      "Minimal spiritual impossible designs",
+      "Chrome for soul support",
+      "Investment in virtual vs physical use",
+      "Daily use in digital meetings",
+      "Copy of copies in digital gold rush",
+      "Market trades for high amounts initially"
+    ],
+    states: ["rethought", "symbolic", "dreaming", "mixing", "spiritual", "supporting"],
+    emotions: ["question", "symbolism", "dream", "aesthetic", "impossibility", "investment"]
+  },
+  {
+    concept: "virtual furniture colors",
+    keywords: ["four color revolution", "metallic black white red", "mondrian furniture", "digital apocalypse", "public squares"],
+    insights: [
+      "Palette metallic black white red for design",
+      "Like minimalist fever dream colors",
+      "Public sculptures change with mood",
+      "Traditional art frozen vs virtual living",
+      "Serra works interactive in digital",
+      "AR sculptures in rooms no dusting",
+      "Koons dog changes with feed mood",
+      "Sculptures respond to music data",
+      "Calder mobile dances to jazz",
+      "Brancusi elongates with market data"
+    ],
+    states: ["paletted", "dreaming", "changing", "living", "interactive", "changing"],
+    emotions: ["revolution", "minimalism", "mood", "entity", "response", "living"]
+  },
+  {
+    concept: "virtual furniture future",
+    keywords: ["floating future", "failure interesting", "human brain process", "dieter rams", "tulip mania"],
+    insights: [
+      "Future experiments invaluable even if fail",
+      "Teach about non-existent materials",
+      "Interactions with untouchable objects",
+      "Psychology of unreal spaces",
+      "Good design minimal in virtual",
+      "Possible meaning still figuring",
+      "Bubble comes but experiments matter",
+      "Pushing design boundaries physics optional",
+      "Philosophy function in digital",
+      "Tulip mania left nice flowers"
+    ],
+    states: ["experimental", "teaching", "interacting", "psychological", "minimal", "figuring"],
+    emotions: ["invaluable", "nature", "psychology", "boundary", "philosophy", "legacy"]
+  },
+  {
+    concept: "virtual theater modes",
+    keywords: ["modes", "cinematic", "immersive", "actor", "time manipulation", "hamlet castle"],
+    insights: [
+      "Cinematic mode uses designated cameras",
+      "Immersive mode allows wandering through performance",
+      "Actor mode lets user become performer",
+      "Modes manipulate time in experiences",
+      "Repeat reverse or circular time options",
+      "Become prince in Hamlet digital castle",
+      "Avatar as NFT for identity",
+      "Technical wizardry for avatar integration",
+      "Modes make nervous with laugh tracks",
+      "Incorrect moments for added effect"
+    ],
+    states: ["designated", "wandering", "becoming", "manipulating", "optioning", "becoming"],
+    emotions: ["perspective", "ghost", "audacity", "weirdness", "nervous", "effect"]
+  },
+  {
+    concept: "virtual theater pieces",
+    keywords: ["pieces", "the pill", "why we exist", "balloon", "hatch", "venice festival"],
+    insights: [
+      "The Pill or Why We Exist from 2023 competition",
+      "Raw unpolished first piece",
+      "Balloon reincarnation of first with differences",
+      "Same foundations but different outcome",
+      "Hatch submitted to Venice Immersive",
+      "Most complex with references tempo twists",
+      "Flattened actor mode as character",
+      "Existential crisis in digital DNA",
+      "Sitcom logic with three characters cameras",
+      "Laugh tracks at wrong places"
+    ],
+    states: ["competitive", "raw", "reincarnated", "different", "submitted", "complex"],
+    emotions: ["birth", "rawness", "recreation", "outcome", "nowhere", "profundity"]
+  },
+  {
+    concept: "virtual theater sound",
+    keywords: ["sound", "ambient sets", "kimse", "three hours", "script guidance", "tiktok pacing"],
+    insights: [
+      "Sound starts before other elements",
+      "Ambient sets three hours each",
+      "Kimse created from high school friend",
+      "Sound guides emotion changes in script",
+      "Pacing from TikTok stimuli bombardment",
+      "Silence after intense stimuli",
+      "Like digital attention dominatrix",
+      "Stolen from Tarantino technique",
+      "Foundation if architecture analogy",
+      "Eno fever dream in Matrix"
+    ],
+    states: ["starting", "ambient", "created", "guiding", "bombarding", "silencing"],
+    emotions: ["priority", "length", "friendship", "change", "attention", "cruelty"]
+  },
+  {
+    concept: "virtual theater ownership",
+    keywords: ["ownership", "world nft", "editable", "spawn anything", "destroy work", "chain actions"],
+    insights: [
+      "Buyers get entire world not mp4",
+      "Metaverse world NFT on Ethereum",
+      "Edit change or spawn freely",
+      "Prove living breathing mechanism",
+      "Allow owner to destroy rebuild",
+      "Chain-actions not on-chain",
+      "Assets off-chain optimized",
+      "Smart objects from folder interface",
+      "Minting possible but not implemented",
+      "Honesty as sales technique"
+    ],
+    states: ["getting", "metaverse", "editing", "proving", "allowing", "not on-chain"],
+    emotions: ["entirety", "ownership", "freedom", "mechanism", "destruction", "honesty"]
+  },
+  {
+    concept: "dfw audience proof",
+    keywords: ["audience", "cultural pioneers", "cathedrals aspirations", "digital architectures", "vessels identity"],
+    insights: [
+      "Cultural pioneers perceive new domain significance",
+      "Cathedrals represented collective aspirations",
+      "Digital architectures vessel modern identity",
+      "Spaces limitless for visionary legacies",
+      "Virtual Theater shows narrative space interplay",
+      "Digital Topographies introduce fluidity on blockchain",
+      "Creations unlock profound potential",
+      "Quiet testament to digital architecture",
+      "Projects like runway and galleries",
+      "Each creation uncharted dimensions"
+    ],
+    states: ["perceiving", "representing", "vesseling", "limitless", "showing", "introducing"],
+    emotions: ["significance", "aspiration", "identity", "legacy", "interplay", "fluidity"]
+  },
+  {
+    concept: "dfw creative studio",
+    keywords: ["creative studio", "virtual spatial web", "dimensional appreciation", "smart simple", "multiple modes"],
+    insights: [
+      "Studio for virtual and spatial web design",
+      "Transform portfolios into interactive 3D spaces",
+      "Dimensional appreciation makes smart simple",
+      "Virtual Theater between cinema and theater",
+      "Real-time digital performances with files as actors",
+      "Multiple modes cinematic immersive actor",
+      "Browser-based under 15MB size",
+      "Real-time rendering dynamic management",
+      "Interactive storytelling possibilities",
+      "Customizable for different narratives"
+    ],
+    states: ["designing", "transforming", "appreciating", "between", "performing", "moded"],
+    emotions: ["creativity", "interaction", "simplicity", "groundbreaking", "real-time", "possibility"]
+  },
+  {
+    concept: "dfw museum gallery",
+    keywords: ["museum gallery", "metaverse exhibition", "total experience", "senses transcendence", "traditional constraints"],
+    insights: [
+      "Reimagine exhibition art in metaverse",
+      "Spaces transcend traditional gallery constraints",
+      "Designed as total experience for senses",
+      "Current offerings on-chain experiences",
+      "Four metaverse worlds with theater",
+      "One virtual runway environment",
+      "Premium 3D objects collection",
+      "Architectural pieces digital furniture",
+      "Limited edition sculptures",
+      "Custom vehicle models"
+    ],
+    states: ["reimagining", "transcending", "designed", "offering", "worlding", "environmental"],
+    emotions: ["reimagination", "transcendence", "totality", "uniqueness", "premium", "edition"]
+  }
+];
